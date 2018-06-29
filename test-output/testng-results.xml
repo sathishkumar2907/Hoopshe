@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+    <line>
+      <![CDATA[...invalid test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null username test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null password test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null  data test passed]]>
+    </line>
+    <line>
+      <![CDATA[...valid test passed]]>
+    </line>
+    <line>
+      <![CDATA[..post upload succesfully]]>
+    </line>
+    <line>
+      <![CDATA[..post upload succesfully]]>
+    </line>
+    <line>
+      <![CDATA[eve123post match and varified]]>
+    </line>
+    <line>
+      <![CDATA[isa123post match and varified]]>
+    </line>
+    <line>
+      <![CDATA[vid123post not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[titlt12post not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[tit_serpost not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Auto prepost not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Auto serpost not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Please enter valid email address!...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[Please enter your name!...null test passed]]>
+    </line>
+    <line>
+      <![CDATA[nearestpostpost match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Clothingcategory match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Sareesubcategory match and varified]]>
+    </line>
+    <line>
+      <![CDATA[hyderabadcity not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[sdtitle  not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Trainingcategory  not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[Drivingsubcategory not match and varified]]>
+    </line>
+    <line>
+      <![CDATA[hyderabadcity not match and varified]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="729133" started-at="2017-11-29T05:16:42Z" finished-at="2017-11-29T05:28:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="729133" started-at="2017-11-29T05:16:42Z" finished-at="2017-11-29T05:28:52Z">
+      <class name="com.hoopshe.tests.newLoginpagetest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="init" is-config="true" duration-ms="8683" started-at="2017-11-29T10:46:42Z" finished-at="2017-11-29T10:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="loginTest" duration-ms="12680" started-at="2017-11-29T10:46:52Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC1, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...invalid test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="loginTest" duration-ms="7285" started-at="2017-11-29T10:47:04Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null username test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="loginTest" duration-ms="7290" started-at="2017-11-29T10:47:12Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC3, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="loginTest" duration-ms="7258" started-at="2017-11-29T10:47:19Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null  data test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="loginTest" duration-ms="10589" started-at="2017-11-29T10:47:26Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058, TCID=TC5, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...valid test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.newLoginpagetest@59f99ea]" name="tearDown" is-config="true" duration-ms="5732" started-at="2017-11-29T10:47:37Z" finished-at="2017-11-29T10:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.newLoginpagetest -->
+      <class name="com.hoopshe.tests.Posting_test">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="init" is-config="true" duration-ms="7631" started-at="2017-11-29T10:47:43Z" finished-at="2017-11-29T10:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="loginTest" duration-ms="5494" started-at="2017-11-29T10:47:50Z" data-provider="getLoginData" finished-at="2017-11-29T10:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9492379586]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="posting" duration-ms="37898" started-at="2017-11-29T10:47:56Z" data-provider="test" finished-at="2017-11-29T10:48:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EVENTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Spiritual/Religious]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description fgf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4525]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tags]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PUBLIC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Events ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[..post upload succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="posting" duration-ms="27001" started-at="2017-11-29T10:48:34Z" data-provider="test" finished-at="2017-11-29T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ISHARE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[isa123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Ishare ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[..post upload succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="posting" duration-ms="26589" started-at="2017-11-29T10:49:01Z" data-provider="test" finished-at="2017-11-29T10:49:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIDEOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vid123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description fgf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4525]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tags]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PUBLIC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Videos ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="posting" duration-ms="29010" started-at="2017-11-29T10:49:28Z" data-provider="test" finished-at="2017-11-29T10:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SERVICE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[titlt12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Training]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Driving]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Services ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="posting" duration-ms="28928" started-at="2017-11-29T10:49:57Z" data-provider="test" finished-at="2017-11-29T10:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tit_ser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Products ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.Posting_test@27efef64]" name="tearDown" is-config="true" duration-ms="5745" started-at="2017-11-29T10:50:25Z" finished-at="2017-11-29T10:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.Posting_test -->
+      <class name="com.hoopshe.tests.Loginpagetest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.Loginpagetest@6f7fd0e6]" name="init" is-config="true" duration-ms="8709" started-at="2017-11-29T10:52:11Z" finished-at="2017-11-29T10:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Loginpagetest@6f7fd0e6]" name="loginTest" duration-ms="10360" started-at="2017-11-29T10:52:19Z" data-provider="getLoginData" finished-at="2017-11-29T10:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9492379586]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.Loginpagetest@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="5664" started-at="2017-11-29T10:52:30Z" finished-at="2017-11-29T10:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.Loginpagetest -->
+      <class name="com.hoopshe.tests.Premiumtest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.Premiumtest@3e6fa38a]" name="init" is-config="true" duration-ms="7665" started-at="2017-11-29T10:52:35Z" finished-at="2017-11-29T10:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Premiumtest@3e6fa38a]" name="loginTest" duration-ms="5491" started-at="2017-11-29T10:52:43Z" data-provider="getLoginData" finished-at="2017-11-29T10:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9492379586]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="premium_posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Premiumtest@3e6fa38a]" name="premium_posting" duration-ms="54389" started-at="2017-11-29T10:52:49Z" data-provider="test2" finished-at="2017-11-29T10:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Auto pre]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description is]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image4.jpg]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5566]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[hggh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[singleimage]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[globel]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Products ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Auto prepost not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- premium_posting -->
+        <test-method status="PASS" signature="premium_posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Premiumtest@3e6fa38a]" name="premium_posting" duration-ms="57275" started-at="2017-11-29T10:53:43Z" data-provider="test2" finished-at="2017-11-29T10:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Auto ser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Training]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Driving]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description is]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5566]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[hggh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[singlevideo]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Services ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Auto serpost not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- premium_posting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.Premiumtest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="5727" started-at="2017-11-29T10:54:40Z" finished-at="2017-11-29T10:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.Premiumtest -->
+      <class name="com.hoopshe.tests.Postvarificationtest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="init" is-config="true" duration-ms="7803" started-at="2017-11-29T10:50:31Z" finished-at="2017-11-29T10:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="loginTest" duration-ms="5489" started-at="2017-11-29T10:50:39Z" data-provider="getLoginData" finished-at="2017-11-29T10:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9492379586]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="posting" duration-ms="12337" started-at="2017-11-29T10:50:45Z" data-provider="test" finished-at="2017-11-29T10:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EVENTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Spiritual/Religious]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description fgf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4525]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tags]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PUBLIC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Events ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[eve123post match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="posting" duration-ms="10857" started-at="2017-11-29T10:50:57Z" data-provider="test" finished-at="2017-11-29T10:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ISHARE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[isa123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Ishare ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[isa123post match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="posting" duration-ms="15982" started-at="2017-11-29T10:51:08Z" data-provider="test" finished-at="2017-11-29T10:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIDEOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vid123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[description fgf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4525]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tags]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PUBLIC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Videos ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vid123post not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="posting" duration-ms="16696" started-at="2017-11-29T10:51:24Z" data-provider="test" finished-at="2017-11-29T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SERVICE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[titlt12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Training]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Driving]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Services ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[titlt12post not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="posting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="posting" duration-ms="24306" started-at="2017-11-29T10:51:41Z" data-provider="test" finished-at="2017-11-29T10:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tit_ser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[desc serv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[image3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[542542]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dffg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FRIENDS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[November 2017]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December 2017]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Products ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tit_serpost not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- posting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.Postvarificationtest@47c62251]" name="tearDown" is-config="true" duration-ms="5703" started-at="2017-11-29T10:52:05Z" finished-at="2017-11-29T10:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.Postvarificationtest -->
+      <class name="com.hoopshe.tests.Sign_in_test">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="init" is-config="true" duration-ms="8746" started-at="2017-11-29T10:54:46Z" finished-at="2017-11-29T10:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12710" started-at="2017-11-29T10:54:55Z" data-provider="getLoginData" finished-at="2017-11-29T10:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy, TCID=TC1, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Please enter valid email address!...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12572" started-at="2017-11-29T10:55:08Z" data-provider="getLoginData" finished-at="2017-11-29T10:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, SheetName=Post, Runmode=Yes, city=, email=sdads@df, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12636" started-at="2017-11-29T10:55:20Z" data-provider="getLoginData" finished-at="2017-11-29T10:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, SheetName=Post, Runmode=Yes, city=hyderabad, email=sdads@df, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12527" started-at="2017-11-29T10:55:33Z" data-provider="getLoginData" finished-at="2017-11-29T10:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Post, Runmode=Yes, city=, email=dfdsffg, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12670" started-at="2017-11-29T10:55:45Z" data-provider="getLoginData" finished-at="2017-11-29T10:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=TC5, SheetName=Post, Runmode=Yes, city=hyderabad, email=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12674" started-at="2017-11-29T10:55:58Z" data-provider="getLoginData" finished-at="2017-11-29T10:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12390" started-at="2017-11-29T10:56:11Z" data-provider="getLoginData" finished-at="2017-11-29T10:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="loginTest" duration-ms="12591" started-at="2017-11-29T10:56:23Z" data-provider="getLoginData" finished-at="2017-11-29T10:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Please enter your name!...null test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.Sign_in_test@66a3ffec]" name="tearDown" is-config="true" duration-ms="5550" started-at="2017-11-29T10:56:36Z" finished-at="2017-11-29T10:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.Sign_in_test -->
+      <class name="com.hoopshe.tests.pFiltertest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hoopshe.tests.pFiltertest@77caeb3e]" name="init" is-config="true" duration-ms="7867" started-at="2017-11-29T10:56:41Z" finished-at="2017-11-29T10:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.pFiltertest@77caeb3e]" name="loginTest" duration-ms="5459" started-at="2017-11-29T10:56:49Z" data-provider="getLoginData" finished-at="2017-11-29T10:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9492379586]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="filter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.pFiltertest@77caeb3e]" name="filter" duration-ms="55548" started-at="2017-11-29T10:56:55Z" data-provider="test3" finished-at="2017-11-29T10:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nearestpost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clothing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Saree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[nearestpostpost match and varified]]>
+            </line>
+            <line>
+              <![CDATA[Clothingcategory match and varified]]>
+            </line>
+            <line>
+              <![CDATA[Sareesubcategory match and varified]]>
+            </line>
+            <line>
+              <![CDATA[hyderabadcity not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method status="PASS" signature="filter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hoopshe.tests.pFiltertest@77caeb3e]" name="filter" duration-ms="55500" started-at="2017-11-29T10:57:50Z" data-provider="test3" finished-at="2017-11-29T10:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Training]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Driving]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[sdtitle  not match and varified]]>
+            </line>
+            <line>
+              <![CDATA[Trainingcategory  not match and varified]]>
+            </line>
+            <line>
+              <![CDATA[Drivingsubcategory not match and varified]]>
+            </line>
+            <line>
+              <![CDATA[hyderabadcity not match and varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hoopshe.tests.pFiltertest@77caeb3e]" name="tearDown" is-config="true" duration-ms="5674" started-at="2017-11-29T10:58:46Z" finished-at="2017-11-29T10:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hoopshe.tests.pFiltertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

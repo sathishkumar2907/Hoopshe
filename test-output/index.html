@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\parimala\AppData\Local\Temp\testng-eclipse--772616872\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.pFiltertest" hash-for-method="filter(Services, sd, Training, Driving, hyderabad)">filter(Services, sd, Training, Driving, hyderabad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.pFiltertest" hash-for-method="filter(Products, nearestpost, Clothing, Saree, hyderabad)">filter(Products, nearestpost, Clothing, Saree, hyderabad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.pFiltertest" hash-for-method="loginTest(9492379586, 123456)">loginTest(9492379586, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.newLoginpagetest" hash-for-method="loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...)">loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...)">loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.newLoginpagetest" hash-for-method="loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})">loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.newLoginpagetest" hash-for-method="loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...)">loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="loginTest(9492379586, 123456)">loginTest(9492379586, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.newLoginpagetest" hash-for-method="loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})">loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...)">loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Loginpagetest" hash-for-method="loginTest(9492379586, 123456)">loginTest(9492379586, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...)">loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...)">loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...)">loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.newLoginpagetest" hash-for-method="loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...)">loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...)">loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Sign_in_test" hash-for-method="loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="loginTest(9492379586, 123456)">loginTest(9492379586, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Premiumtest" hash-for-method="loginTest(9492379586, 123456)">loginTest(9492379586, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)">posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)">posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)">posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Posting_test" hash-for-method="posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)">posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)">posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Postvarificationtest" hash-for-method="posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)">posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Premiumtest" hash-for-method="premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...)">premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hoopshe.tests.Premiumtest" hash-for-method="premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...)">premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.Postvarificationtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9492379586, 123456)">
+                  </a> <!-- loginTest(9492379586, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9492379586, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)">
+                  </a> <!-- posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Products )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)">
+                  </a> <!-- posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, 12, Ishare )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)">
+                  </a> <!-- posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, November 2017, 29, December 2017, 12, Events )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)">
+                  </a> <!-- posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Services )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)">
+                  </a> <!-- posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 4525, tags, PUBLIC, November 2017, 29, December 2017, , Videos )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.Loginpagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9492379586, 123456)">
+                  </a> <!-- loginTest(9492379586, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9492379586, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.Premiumtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9492379586, 123456)">
+                  </a> <!-- loginTest(9492379586, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9492379586, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...)">
+                  </a> <!-- premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...) -->
+                  <span class="method-name">premium_posting</span>
+                  <span class="parameters">(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 5566, hggh, singlevideo, November 2017, 29, December 2017, 12, local, Services )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...)">
+                  </a> <!-- premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...) -->
+                  <span class="method-name">premium_posting</span>
+                  <span class="parameters">(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, November 2017, 29, December 2017, 12, globel, Products )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.Posting_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9492379586, 123456)">
+                  </a> <!-- loginTest(9492379586, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9492379586, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)">
+                  </a> <!-- posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, 12, Ishare )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)">
+                  </a> <!-- posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, November 2017, 29, December 2017, 12, Events )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)">
+                  </a> <!-- posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Services )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)">
+                  </a> <!-- posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Products )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)">
+                  </a> <!-- posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...) -->
+                  <span class="method-name">posting</span>
+                  <span class="parameters">(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 4525, tags, PUBLIC, November 2017, 29, December 2017, , Videos )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.pFiltertest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filter(Services, sd, Training, Driving, hyderabad)">
+                  </a> <!-- filter(Services, sd, Training, Driving, hyderabad) -->
+                  <span class="method-name">filter</span>
+                  <span class="parameters">(Services, sd, Training, Driving, hyderabad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filter(Products, nearestpost, Clothing, Saree, hyderabad)">
+                  </a> <!-- filter(Products, nearestpost, Clothing, Saree, hyderabad) -->
+                  <span class="method-name">filter</span>
+                  <span class="parameters">(Products, nearestpost, Clothing, Saree, hyderabad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9492379586, 123456)">
+                  </a> <!-- loginTest(9492379586, 123456) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9492379586, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.newLoginpagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...)">
+                  </a> <!-- loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC1, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})">
+                  </a> <!-- loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...)">
+                  </a> <!-- loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058, TCID=TC5, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})">
+                  </a> <!-- loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...)">
+                  </a> <!-- loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC3, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hoopshe.tests.Sign_in_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...)">
+                  </a> <!-- loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, SheetName=Post, Runmode=Yes, city=hyderabad, email=sdads@df, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...)">
+                  </a> <!-- loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy, TCID=TC1, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...)">
+                  </a> <!-- loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, SheetName=Post, Runmode=Yes, city=, email=sdads@df, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...)">
+                  </a> <!-- loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Post, Runmode=Yes, city=, email=dfdsffg, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})">
+                  </a> <!-- loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...)">
+                  </a> <!-- loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=TC5, SheetName=Post, Runmode=Yes, city=hyderabad, email=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...)">
+                  </a> <!-- loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})">
+                  </a> <!-- loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\parimala\AppData\Local\Temp\testng-eclipse--772616872\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hoopshe.tests.newLoginpagetest&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Posting_test&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Loginpagetest&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Readdata&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Xls_read&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Postvarificationtest&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Premiumtest&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.Sign_in_test&quot;/&gt;
+      &lt;class name=&quot;com.hoopshe.tests.pFiltertest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'premium_posting')
+data.setCell(0, 2, 'com.hoopshe.tests.Premiumtest')
+data.setCell(0, 3, 57275);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'filter')
+data.setCell(1, 2, 'com.hoopshe.tests.pFiltertest')
+data.setCell(1, 3, 55548);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'filter')
+data.setCell(2, 2, 'com.hoopshe.tests.pFiltertest')
+data.setCell(2, 3, 55500);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'premium_posting')
+data.setCell(3, 2, 'com.hoopshe.tests.Premiumtest')
+data.setCell(3, 3, 54389);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'posting')
+data.setCell(4, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(4, 3, 37898);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'posting')
+data.setCell(5, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(5, 3, 29010);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'posting')
+data.setCell(6, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(6, 3, 28928);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'posting')
+data.setCell(7, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(7, 3, 27001);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'posting')
+data.setCell(8, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(8, 3, 26589);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'posting')
+data.setCell(9, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(9, 3, 24306);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'posting')
+data.setCell(10, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(10, 3, 16696);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'posting')
+data.setCell(11, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(11, 3, 15982);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(12, 3, 12710);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'com.hoopshe.tests.newLoginpagetest')
+data.setCell(13, 3, 12680);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(14, 3, 12674);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTest')
+data.setCell(15, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(15, 3, 12670);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginTest')
+data.setCell(16, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(16, 3, 12636);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginTest')
+data.setCell(17, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(17, 3, 12591);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginTest')
+data.setCell(18, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(18, 3, 12572);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginTest')
+data.setCell(19, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(19, 3, 12527);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginTest')
+data.setCell(20, 2, 'com.hoopshe.tests.Sign_in_test')
+data.setCell(20, 3, 12390);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'posting')
+data.setCell(21, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(21, 3, 12337);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'posting')
+data.setCell(22, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(22, 3, 10857);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginTest')
+data.setCell(23, 2, 'com.hoopshe.tests.newLoginpagetest')
+data.setCell(23, 3, 10589);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginTest')
+data.setCell(24, 2, 'com.hoopshe.tests.Loginpagetest')
+data.setCell(24, 3, 10360);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'com.hoopshe.tests.newLoginpagetest')
+data.setCell(25, 3, 7290);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginTest')
+data.setCell(26, 2, 'com.hoopshe.tests.newLoginpagetest')
+data.setCell(26, 3, 7285);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginTest')
+data.setCell(27, 2, 'com.hoopshe.tests.newLoginpagetest')
+data.setCell(27, 3, 7258);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginTest')
+data.setCell(28, 2, 'com.hoopshe.tests.Posting_test')
+data.setCell(28, 3, 5494);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'loginTest')
+data.setCell(29, 2, 'com.hoopshe.tests.Premiumtest')
+data.setCell(29, 3, 5491);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'loginTest')
+data.setCell(30, 2, 'com.hoopshe.tests.Postvarificationtest')
+data.setCell(30, 3, 5489);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'loginTest')
+data.setCell(31, 2, 'com.hoopshe.tests.pFiltertest')
+data.setCell(31, 3, 5459);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...invalid test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">..post upload succesfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">..post upload succesfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Auto serpost not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null  data test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...valid test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">tit_serpost not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">filter(Services, sd, Training, Driving, hyderabad)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">sdtitle  not match and varified</span>
+                <span class="reporter-method-output">Trainingcategory  not match and varified</span>
+                <span class="reporter-method-output">Drivingsubcategory not match and varified</span>
+                <span class="reporter-method-output">hyderabadcity not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">isa123post match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null username test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">filter(Products, nearestpost, Clothing, Saree, hyderabad)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">nearestpostpost match and varified</span>
+                <span class="reporter-method-output">Clothingcategory match and varified</span>
+                <span class="reporter-method-output">Sareesubcategory match and varified</span>
+                <span class="reporter-method-output">hyderabadcity not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Please enter valid email address!...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Auto prepost not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">eve123post match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">titlt12post not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">vid123post not match and varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null password test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Please enter your name!...null test passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.newLoginpagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest({TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiran...)</span>
+                <span class="method-start">9317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =})</span>
+                <span class="method-start">21997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCI...)</span>
+                <span class="method-start">29282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =})</span>
+                <span class="method-start">36572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058,...)</span>
+                <span class="method-start">43830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54421 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.Posting_test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">60153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9492379586, 123456)</span>
+                <span class="method-start">67973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</span>
+                <span class="method-start">73558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</span>
+                <span class="method-start">111457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)</span>
+                <span class="method-start">138460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)</span>
+                <span class="method-start">165049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)</span>
+                <span class="method-start">194060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223004 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.Postvarificationtest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">228749 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9492379586, 123456)</span>
+                <span class="method-start">236693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, Novem...)</span>
+                <span class="method-start">242276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December...)</span>
+                <span class="method-start">254615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_...)</span>
+                <span class="method-start">265473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2...)</span>
+                <span class="method-start">281458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posting(PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 201...)</span>
+                <span class="method-start">298156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">322463 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.Loginpagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">328166 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9492379586, 123456)</span>
+                <span class="method-start">336968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">347332 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.Premiumtest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">352996 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9492379586, 123456)</span>
+                <span class="method-start">360735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">premium_posting(Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, ...)</span>
+                <span class="method-start">366311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">premium_posting(Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio...)</span>
+                <span class="method-start">420701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">477977 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.Sign_in_test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">483704 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy,...)</span>
+                <span class="method-start">492507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, Shee...)</span>
+                <span class="method-start">505219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, Shee...)</span>
+                <span class="method-start">517791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Po...)</span>
+                <span class="method-start">530428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=...)</span>
+                <span class="method-start">542957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetNam...)</span>
+                <span class="method-start">555630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+                <span class="method-start">568306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =})</span>
+                <span class="method-start">580698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">593289 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hoopshe.tests.pFiltertest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">598839 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9492379586, 123456)</span>
+                <span class="method-start">606850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filter(Products, nearestpost, Clothing, Saree, hyderabad)</span>
+                <span class="method-start">612410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filter(Services, sd, Training, Driving, hyderabad)</span>
+                <span class="method-start">667958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">723459 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

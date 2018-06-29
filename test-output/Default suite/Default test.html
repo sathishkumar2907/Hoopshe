@@ -1,0 +1,413 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 29 10:46:42 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>729 seconds (729133 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hoopshe.tests.pFiltertest.filter()'><b>filter</b><br>Test class: com.hoopshe.tests.pFiltertest<br>Parameters: Products, nearestpost, Clothing, Saree, hyderabad<br/>
+<a href="#Output-514453513" onClick='toggleBox("Output-514453513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-514453513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-514453513">
+nearestpostpost match and varified<br/>
+Clothingcategory match and varified<br/>
+Sareesubcategory match and varified<br/>
+hyderabadcity not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>55</td>
+<td>com.hoopshe.tests.pFiltertest@77caeb3e</td></tr>
+<tr>
+<td title='com.hoopshe.tests.pFiltertest.filter()'><b>filter</b><br>Test class: com.hoopshe.tests.pFiltertest<br>Parameters: Services, sd, Training, Driving, hyderabad<br/>
+<a href="#Output-2063009760" onClick='toggleBox("Output-2063009760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2063009760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2063009760">
+sdtitle  not match and varified<br/>
+Trainingcategory  not match and varified<br/>
+Drivingsubcategory not match and varified<br/>
+hyderabadcity not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>55</td>
+<td>com.hoopshe.tests.pFiltertest@77caeb3e</td></tr>
+<tr>
+<td title='com.hoopshe.tests.newLoginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.newLoginpagetest<br>Parameters: {TestCase=invalid Login data, Password=kiranmayee, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC1, =}<br/>
+<a href="#Output-1122233828" onClick='toggleBox("Output-1122233828", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1122233828" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1122233828">
+...invalid test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.newLoginpagetest@59f99ea</td></tr>
+<tr>
+<td title='com.hoopshe.tests.newLoginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.newLoginpagetest<br>Parameters: {TestCase=Null us data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=, TCID=TC2, =}<br/>
+<a href="#Output-2032909428" onClick='toggleBox("Output-2032909428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032909428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032909428">
+...null username test passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.hoopshe.tests.newLoginpagetest@59f99ea</td></tr>
+<tr>
+<td title='com.hoopshe.tests.newLoginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.newLoginpagetest<br>Parameters: {TestCase=Null password, Password=, Runmode=Yes, SheetName=LoginSheet, UserName=kiranmayeereddy, TCID=TC3, =}<br/>
+<a href="#Output-733461760" onClick='toggleBox("Output-733461760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-733461760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-733461760">
+...null password test passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.hoopshe.tests.newLoginpagetest@59f99ea</td></tr>
+<tr>
+<td title='com.hoopshe.tests.newLoginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.newLoginpagetest<br>Parameters: {TestCase=Null  data, Password=, Runmode=, SheetName=LoginSheet, UserName=, TCID=TC4, =}<br/>
+<a href="#Output-582300198" onClick='toggleBox("Output-582300198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-582300198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-582300198">
+...null  data test passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.hoopshe.tests.newLoginpagetest@59f99ea</td></tr>
+<tr>
+<td title='com.hoopshe.tests.newLoginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.newLoginpagetest<br>Parameters: {TestCase=valid login data, Password=123456, Runmode=Yes, SheetName=LoginSheet, UserName=9441658058, TCID=TC5, =}<br/>
+<a href="#Output-265824587" onClick='toggleBox("Output-265824587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265824587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265824587">
+...valid test passed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.hoopshe.tests.newLoginpagetest@59f99ea</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: 9492379586, 123456</td>
+<td></td>
+<td>5</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: 9492379586, 123456</td>
+<td></td>
+<td>5</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Loginpagetest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Loginpagetest<br>Parameters: 9492379586, 123456</td>
+<td></td>
+<td>10</td>
+<td>com.hoopshe.tests.Loginpagetest@6f7fd0e6</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Premiumtest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Premiumtest<br>Parameters: 9492379586, 123456</td>
+<td></td>
+<td>5</td>
+<td>com.hoopshe.tests.Premiumtest@3e6fa38a</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=kiranmayee, mobile=9442516135454, TestCase=invalid data, passwd=53653.0, file=kiranmayeereddy, TCID=TC1, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =}<br/>
+<a href="#Output-1855734078" onClick='toggleBox("Output-1855734078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1855734078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1855734078">
+Please enter valid email address!...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=57587, mobile=475475624576, TestCase=Null city, passwd=56353.0, file=852265665, TCID=TC2, SheetName=Post, Runmode=Yes, city=, email=sdads@df, =}<br/>
+<a href="#Output-428245792" onClick='toggleBox("Output-428245792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-428245792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-428245792">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=123456, mobile=4.586543654E9, TestCase=Null password, passwd=, file=9441658058, TCID=TC3, SheetName=Post, Runmode=Yes, city=hyderabad, email=sdads@df, =}<br/>
+<a href="#Output-656349395" onClick='toggleBox("Output-656349395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-656349395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-656349395">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=, mobile=, TestCase=Null mobile num, passwd=56.0, file=kiranmayeereddy, TCID=TC4, SheetName=Post, Runmode=Yes, city=, email=dfdsffg, =}<br/>
+<a href="#Output-140428850" onClick='toggleBox("Output-140428850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-140428850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-140428850">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=kiranmayee, mobile=9.441628028E9, TestCase=Null email, passwd=5636356.0, file=dfsdfsgdf, TCID=TC5, SheetName=Post, Runmode=Yes, city=hyderabad, email=, =}<br/>
+<a href="#Output-1227867806" onClick='toggleBox("Output-1227867806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227867806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227867806">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=, mobile=9442516135454, TestCase=Null name, passwd=53653.0, file=dfsdfsgdf, TCID=TC6, SheetName=Post, Runmode=Yes, city=hyderabad, email=nagire@hjkj, =}<br/>
+<a href="#Output-1237264838" onClick='toggleBox("Output-1237264838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237264838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237264838">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}<br/>
+<a href="#Output-1539038539" onClick='toggleBox("Output-1539038539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539038539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539038539">
+...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Sign_in_test.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.Sign_in_test<br>Parameters: {name=, mobile=, TestCase=, passwd=, file=, TCID=, SheetName=Post, Runmode=, city=, email=, =}<br/>
+<a href="#Output-203048480" onClick='toggleBox("Output-203048480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203048480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203048480">
+Please enter your name!...null test passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Sign_in_test@66a3ffec</td></tr>
+<tr>
+<td title='com.hoopshe.tests.pFiltertest.loginTest()'><b>loginTest</b><br>Test class: com.hoopshe.tests.pFiltertest<br>Parameters: 9492379586, 123456</td>
+<td></td>
+<td>5</td>
+<td>com.hoopshe.tests.pFiltertest@77caeb3e</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, November 2017, 29, December 2017, 12, Events <br/>
+<a href="#Output-1267042315" onClick='toggleBox("Output-1267042315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1267042315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1267042315">
+..post upload succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, 12, Ishare <br/>
+<a href="#Output-727250772" onClick='toggleBox("Output-727250772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727250772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727250772">
+..post upload succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 4525, tags, PUBLIC, November 2017, 29, December 2017, , Videos </td>
+<td></td>
+<td>26</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Services </td>
+<td></td>
+<td>29</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Posting_test.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Posting_test<br>Parameters: PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Products </td>
+<td></td>
+<td>28</td>
+<td>com.hoopshe.tests.Posting_test@27efef64</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: EVENTS, eve123, Spiritual/Religious, test, description fgf, delhi, image3, 4525, tags, PUBLIC, November 2017, 29, December 2017, 12, Events <br/>
+<a href="#Output-2093319848" onClick='toggleBox("Output-2093319848", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2093319848" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2093319848">
+eve123post match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: ISHARE, isa123, , , desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, 12, Ishare <br/>
+<a href="#Output-1139609587" onClick='toggleBox("Output-1139609587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139609587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139609587">
+isa123post match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: VIDEOS, vid123, Clothing, Saree, description fgf, delhi, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 4525, tags, PUBLIC, November 2017, 29, December 2017, , Videos <br/>
+<a href="#Output-121678773" onClick='toggleBox("Output-121678773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-121678773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121678773">
+vid123post not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: SERVICE, titlt12, Training, Driving, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Services <br/>
+<a href="#Output-1642973315" onClick='toggleBox("Output-1642973315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1642973315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1642973315">
+titlt12post not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Postvarificationtest.posting()'><b>posting</b><br>Test class: com.hoopshe.tests.Postvarificationtest<br>Parameters: PRODUCT, tit_ser, Clothing, Saree, desc serv, hyderabad, image3, 542542, dffg, FRIENDS, November 2017, 29, December 2017, , Products <br/>
+<a href="#Output-1324262781" onClick='toggleBox("Output-1324262781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1324262781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1324262781">
+tit_serpost not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.hoopshe.tests.Postvarificationtest@47c62251</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Premiumtest.premium_posting()'><b>premium_posting</b><br>Test class: com.hoopshe.tests.Premiumtest<br>Parameters: Product, Auto pre, Clothing, Saree, description is, hyderabad, image4.jpg, 5566, hggh, singleimage, November 2017, 29, December 2017, 12, globel, Products <br/>
+<a href="#Output-347808407" onClick='toggleBox("Output-347808407", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-347808407" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-347808407">
+Auto prepost not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>com.hoopshe.tests.Premiumtest@3e6fa38a</td></tr>
+<tr>
+<td title='com.hoopshe.tests.Premiumtest.premium_posting()'><b>premium_posting</b><br>Test class: com.hoopshe.tests.Premiumtest<br>Parameters: Service, Auto ser, Training, Driving, description is, hyderabad, Amma_Amma_-_Raghuvaran_Btech_(Audio_Dubbed_Rip).mp4, 5566, hggh, singlevideo, November 2017, 29, December 2017, 12, local, Services <br/>
+<a href="#Output-1999135802" onClick='toggleBox("Output-1999135802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1999135802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1999135802">
+Auto serpost not match and varified<br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>com.hoopshe.tests.Premiumtest@3e6fa38a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.hoopshe.tests.Premiumtest">
+        <methods>
+          <include name="premium_posting" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.hoopshe.tests.Premiumtest -->
+      <class name="com.hoopshe.tests.Sign_in">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.hoopshe.tests.Sign_in -->
+      <class name="com.hoopshe.tests.pFiltertest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="loginTest"/>
+          <include name="filter"/>
+        </methods>
+      </class> <!-- com.hoopshe.tests.pFiltertest -->
+      <class name="com.hoopshe.tests.newLoginpagetest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.hoopshe.tests.newLoginpagetest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

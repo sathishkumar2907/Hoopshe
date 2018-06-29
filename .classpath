@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/selenium_files/client-combined-3.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/client-combined-3.7.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/selenium-server-standalone-3.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/mail.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/framework_jars/FrameworkJar/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium_files/jxl/jxl-2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
